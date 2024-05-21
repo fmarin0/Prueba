@@ -15,7 +15,7 @@ pipeline {
                     sh 'node app.js &'
                     
                     // Esperar un minuto
-                    sleep time: 1, unit: 'MINUTES'
+                    sleep time: 20, unit: 'SECONDS'
                     
                     // Detener el servidor Express después de un minuto
                     sh 'killall node'
