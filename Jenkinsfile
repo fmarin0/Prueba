@@ -8,7 +8,7 @@ pipeline {
         }
     
 
-    stage('Test') {
+    stae('Test') {
       steps {
         script {
                     // Ejecutar el servidor Express
